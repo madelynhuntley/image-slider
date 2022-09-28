@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+}
+
+.main-container {
+  border: 1px solid black;
+  width: 900px;
+  height: 900px;
+  position: relative;
+}
+.main-container .img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-size: 900px 100%;
+}
+.main-container .background-img {
+  background-image: url("../../images/colors-modified.jpg");
+}
+.main-container .foreground-img {
+  background-image: url("../../images/colors.jpg");
+  border-right: 3px solid white;
+}
+.main-container #slider {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  -webkit-appearance: none;
+  background: transparent;
+  cursor: pointer;
+}
+.main-container #slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 15px;
+  width: 15px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: white;
+}/*# sourceMappingURL=main.css.map */
